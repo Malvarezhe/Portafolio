@@ -8,6 +8,12 @@ header {
     transition: .6s ease;
 }
 
+/*añade efecto al header al hacer scroll*/
+header.sticky {
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: var(--box-shadow);
+}
+
 a {
     text-decoration: none;
 }
@@ -27,6 +33,10 @@ li {
     margin-right: auto;
     padding: 0 20px;
     transition: .6s ease;
+}
+
+header.sticky .nav-bar {
+    height: calc(2.5rem + 1rem); /*Redimensiona la barra de navegación al hacer scroll*/
 }
 
 .nav-bar .logo {

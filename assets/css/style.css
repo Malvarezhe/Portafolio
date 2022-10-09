@@ -31,7 +31,7 @@
 /*----------scroll bar colors----------*/
     --scroll-bar-color: #c5cadf;
     --scroll-thumb-color: #70768a;
-    --scroll-thumb-hover-color: #454f6b;
+    --scroll-thumb-hover-color: #2e3446;
 }
 
 
@@ -59,3 +59,4 @@ body {
     justify-content: center;
     align-items: center;
 }
+
