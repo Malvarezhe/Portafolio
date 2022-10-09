@@ -6,13 +6,13 @@
     padding: 6rem 2rem 2rem;
 }
 
-.sub-section {
+/* .sub-section {
     position: relative;
     width: 1150px;
     margin-left: auto;
     margin-right: auto;
     padding: 6rem 0;
-}
+} */
 
 .section-title-01 {
     font-size: 4.5rem;
@@ -24,14 +24,12 @@
     -webkit-background-clip: text; /*permite que un fondo especifico de un elemento se recorte de acuerdo al texto ingresado*/
     -webkit-text-fill-color: transparent;
     opacity: .2;
-    text-align: center;
 }
 
 .section-title-02 {
     font-size: 2.5rem;
     font-weight: 700;
     transform: translateY(-80px);
-    text-align: center;
 } 
 
 .section-title-02::before {
@@ -39,7 +37,7 @@
     position: absolute;
     width: 70px;
     height: 5px;
-    right: 40.5%;
+    right: 0;
     bottom: 0;
     background: var(--second-color);
 }
